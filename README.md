@@ -6,7 +6,7 @@ A Python-based **image stitching** tool that blends overlapping images into a se
 
 -Features
 
-Loads multiple images automatically from a folder.
+Loads multiple images  from a folder.
 
 Detects and matches keypoints between overlapping images.
 
