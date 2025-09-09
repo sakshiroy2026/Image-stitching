@@ -4,11 +4,15 @@ A Python-based **image stitching** tool that blends overlapping images into a se
 
 ##  Features
 
-- Detects and matches key points between images using SIFT (or alternative detectors if needed)
-- Estimates projective transformation (homography) via RANSAC
-- Warps images into a common frame and merges them into a panorama
-- Basic blending to smooth transitions between stitched images
-- Modular structure for easy extension of feature detectors, matchers, and blend modes
+-Features
+
+Loads multiple images automatically from a folder.
+
+Detects and matches keypoints between overlapping images.
+
+Aligns and blends images into a smooth panorama.
+
+Saves and displays the final stitched result.
 
 ##  Getting Started
 
